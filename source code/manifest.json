@@ -1,0 +1,12 @@
+{
+    "name": "GYZ Final Week Reminder",
+   "description": "GYZ Final Week Reminder",
+   "version": "1.0",
+   "manifest_version": 2,
+    "content_scripts": [ {
+      "js": [ "kill.js"],
+      "matches": [ "*://*/*"], 
+      "run_at": "document_end"
+   } ]
+}
+
